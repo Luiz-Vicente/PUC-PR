@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lançar Notas</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Lançamento de Notas</h1>
+    <form action="">
+        <label for="diciplinas">Selecione a disciplina</label>
+        <select name="diciplinas" id="diciplinas">
+            <option value="1">Introdução a informática</option>
+            <option value="2">Linguagens de programação</option>
+            <option value="3">Programação de computadores</option>
+        </select>
+        <div>
+            <h3>Nome do aluno</h3>
+            <p>Joana da Silva</p>
+            <p>Maria do Socorro</p>
+            <p>Pedro dos Santos</p>
+        </div>
+        <div>
+            <h3>Prova1</h3>
+            <input required max="10" min="0" type="number">
+            <input required max="10" min="0" type="number">
+            <input required max="10" min="0" type="number">
+        </div>
+        <div>
+            <h3>Prova2</h3>
+            <input required max="10" min="0" type="number">
+            <input required max="10" min="0" type="number">
+            <input required max="10" min="0" type="number">
+        </div>
+        <div>
+            <h3>Exame</h3>
+            <input max="10" min="0" type="number">
+            <input max="10" min="0" type="number">
+            <input max="10" min="0" type="number">
+        </div>
+        <div>
+            <h3>Média</h3>
+            <input readonly= “” type="number">
+            <input readonly= “” type="number">
+            <input readonly= “” type="number">
+        </div>
+        <div>
+            <h3>Faltas</h3>
+            <input required max="16" min="0" type="number">
+            <input required max="16" min="0" type="number">
+            <input required max="16" min="0" type="number">
+        </div>
+
+        <button type="submit">Salvar</button>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+</html>
